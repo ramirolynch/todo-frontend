@@ -4,7 +4,7 @@ import { logIn, signUp } from "../services/api";
 
 export function LogIn() {
 
-    const { users, addUser } = useContext(TodoContext)
+    const { users, addUser, logUser} = useContext(TodoContext)
 
     function handleLogIn(event:any) {
         event.preventDefault();
@@ -55,6 +55,4 @@ export function LogIn() {
     );
 }
 
-function logUser(newuser: any): any {
-    throw new Error("Function not implemented.");
-}
+
