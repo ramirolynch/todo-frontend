@@ -48,7 +48,6 @@ function addTodo(task:TaskFace) {
         setLoggedUser([...loggedusersarr,user])
     }
 
-
     return (
 
         <TodoContext.Provider value={{ todos, users, addTodo, addUser, loggedusersarr, logUser}}>

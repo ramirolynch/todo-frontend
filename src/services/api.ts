@@ -60,7 +60,7 @@ export function signUp(
 
 export function logIn(email: string, password: string) {
   return axios
-    .post(`http://localhost:3001/signup`, {
+    .post(`http://localhost:3001/login`, {
       email: email,
       password: password,
     })
